@@ -1,0 +1,13 @@
+:root {
+  --color-primary: #05d8e8;
+  --color-primary-fade: rgba(5, 216, 232, 0.25);
+
+  --color-bg: #010014;
+  --color-text-light: white;
+  --color-text-light-fade-50: rgba(255, 255, 255, 0.5);
+  --color-text-light-fade-25: rgba(255, 255, 255, 0.25);
+
+  --color-text-dark: #010014;
+
+  --color-input-bg: #000020;
+}
