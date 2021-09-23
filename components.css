@@ -4,38 +4,9 @@
 
   --color-bg: #010014;
   --color-text-light: white;
+  --color-text-light-fade-50: rgba(255, 255, 255, 0.5);
+
   --color-text-dark: #010014;
 }
-
-button {
-  color: var(--color-text-dark);
-  background: var(--color-primary);
-
-  border-radius: 12px;
-
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 23px;
-
-  padding: 8px 30px;
-  border: none;
-
-  cursor: pointer;
-}
-
-button[disabled] {
-  color: var(--color-primary);
-  background: var(--color-primary-fade);
-
-  cursor: default;
-}
-
-button.small {
-  border-radius: 4px;
-
-  font-size: 12px;
-  font-weight: normal;
-  line-height: 17px;
-
-  padding: 4px 14px;
-}
+@import url(./button.css);
+@import url(./checkbox.css);
