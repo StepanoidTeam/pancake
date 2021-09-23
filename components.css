@@ -1,12 +1,6 @@
-:root {
-  --color-primary: #05d8e8;
-  --color-primary-fade: rgba(5, 216, 232, 0.25);
+@import url(.//variables.css);
 
-  --color-bg: #010014;
-  --color-text-light: white;
-  --color-text-light-fade-50: rgba(255, 255, 255, 0.5);
-
-  --color-text-dark: #010014;
-}
 @import url(./button.css);
 @import url(./checkbox.css);
+@import url(./input.css);
+@import url(./radio.css);
